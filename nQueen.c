@@ -4,8 +4,6 @@ Program: N-Queen Solution
 Using Backtracking, gives solution for N-Queen
 ******/
 
-
-
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -71,7 +69,7 @@ int main(){
     printf("enter number of queens\n");
     scanf("%d",&input);
     if(input == 2 || input == 3)
-        printf("No solution. \n");
+        printf("There is no possible solution for 2 or 3, please try again.\n");
     nQueens(input);
     return 0;
 }//main
